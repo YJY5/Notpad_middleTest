@@ -1,7 +1,7 @@
 ## NotePad
 This is an AndroidStudio rebuild of google SDK sample NotePad
 
-#功能扩展一：在笔记标题下面增加修改时间
+# 功能扩展一：在笔记标题下面增加修改时间
 
 实现方式：
 1.	在notepadprovider类中修改insert方法，将时间戳格式化成时间格式，再添加到数据库中
@@ -35,7 +35,7 @@ This is an AndroidStudio rebuild of google SDK sample NotePad
 效果图:见result文件夹中图片
 
 
-#功能扩展二：增加笔记搜索功能，按标题搜索笔记
+# 功能扩展二：增加笔记搜索功能，按标题搜索笔记
  
  1.	在lists_optioin_menu.xml菜单文件中添加搜索菜单
  ```html

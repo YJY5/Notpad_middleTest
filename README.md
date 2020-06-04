@@ -32,8 +32,8 @@ This is an AndroidStudio rebuild of google SDK sample NotePad
         String dateTime = format.format(date);
         values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, dateTime);
  ```
- 运行结果：见文件夹result中图片1
- #功能扩展二：增加笔记搜索功能，按标题搜索笔记
+
+#功能扩展二：增加笔记搜索功能，按标题搜索笔记
  
  1.	在lists_optioin_menu.xml菜单文件中添加搜索菜单
  ```html
@@ -114,4 +114,3 @@ This is an AndroidStudio rebuild of google SDK sample NotePad
     }
 ```
 运行结果：见result文件夹中图片2.1；2.2；2.3；2.4
- 

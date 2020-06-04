@@ -32,7 +32,7 @@ This is an AndroidStudio rebuild of google SDK sample NotePad
         String dateTime = format.format(date);
         values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE, dateTime);
  ```
-效果图:见result文件夹总图片
+效果图:见result文件夹中图片
 
 
 #功能扩展二：增加笔记搜索功能，按标题搜索笔记

@@ -37,6 +37,7 @@ public class NoteSearch extends ListActivity implements SearchView.OnQueryTextLi
     }
     @Override
     public boolean onQueryTextChange(String newText) {
+        int a = "aaa";
         //搜索语句，搜索结果存放在cursor中，使用SimpleCursorAdapter进行数据的装填
         String selection = NotePad.Notes.COLUMN_NAME_TITLE + " Like ? ";
         String[] selectionArgs = { "%"+newText+"%" };
